@@ -1,0 +1,84 @@
+
+.session-day {
+    color: #666666;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 12px 0px;
+}
+
+.session-day > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.session-row {
+    background-color: #FFF;
+    border: 1px solid #ebebee;
+    padding: 26px 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.session-row > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.session-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.session-desc {
+    font-size: 13px;
+    color: #333333;
+}
+
+.instructor-name, .session-time {
+    font-size:13px;
+    font-weight: bold;
+    color: #666666;
+    float: left;
+}
+.instructor-name {
+    width: 33%;
+    padding-left: 5px;
+}
+.session-time {
+    width: 45%;
+}
+.img-circle {
+    width: 36px;
+    height: auto;
+    border-radius: 50%;
+}
+/*.img-sub {
+    float: right;
+    margin-right:25%;
+}*/
+.img-ins {
+    float: right;
+    margin-right:5%;
+}
+.title-col {
+    width: 88%;
+    float: right;
+}
+.img-col {
+    text-align: center;
+    width: 12%;
+    float:left;
+}
+.img-col-2 {
+    width: 22%;
+    float: left;
+    text-align: right;
+    align-content: right;
+}
+@media (max-width: 767px) {
+    .session-row .col-xs-12 {
+        margin-bottom: 10px;
+    }
+}
